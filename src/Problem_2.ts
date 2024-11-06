@@ -1,4 +1,5 @@
 const removeDuplicates = (number:number[]) : number[]=>{
-    return [...new Set(number)]
+    return number.filter((val , i)=>(number.indexOf(val)=== i))
 }
-console.log( removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
+const removeDuplicate = removeDuplicates([1, 2, 2, 3, 4, 4, 5]);
+console.log(removeDuplicate);
