@@ -1,6 +1,13 @@
 # The importance of Typescript's union and intersection types
 
 Union and intersection types give TypeScript developers a high degree of flexibility while maintaining strong typing, making it easier to work with complex data structures and ensuring safer and more predictable code. These features significantly improve code quality by providing precise control over how different types are combined or allowed in different contexts.
+In TypeScript, union and intersection types are used to compose or model types from existing types.
+
+These new composed types behave differently, depending on whether they were composed through a union or intersection of the existing type they were formed from.
+
+Defined in the Advanced Types section of Typescript, an intersection type is a type that combines several types into one; a value that can be any one of several types is a union type.
+
+The & symbol is used to create an intersection, whereas the | symbol is used to represent a union. An intersection can be read as an And operator and a union as an Or.
 
 ## What kinds of unions are there?
 
