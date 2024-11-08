@@ -6,7 +6,7 @@
     } else return false;
   };
 
-  const person = { name: "Alice", age: 25, email: "alice@example.com" };
-  validateKeys(person, ["name", "age"]);
+  // const person = { name: "Alice", age: 25, email: "alice@example.com" };
+  // validateKeys(person, ["name", "age"]);
   // console.log(validateKeys(person, ["name", "age"]));
 }

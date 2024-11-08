@@ -4,6 +4,6 @@ class Car {
     return new Date().getFullYear() - this.year;
   }
 }
-const car = new Car("Honda", "Civic", 2018);
-car.getCarAge();
+// const car = new Car("Honda", "Civic", 2018);
+// car.getCarAge();
 // console.log(car.getCarAge());

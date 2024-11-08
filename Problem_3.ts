@@ -16,6 +16,6 @@ const countWordOccurrences = (a: string, b: string) => {
 };
 
 // const countWordOcc = countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript")
-const countWordOcc = countWordOccurrences("I love typescript", "typescript");
+// const countWordOcc = countWordOccurrences("I love typescript", "typescript");
 
 // console.log(countWordOcc);
